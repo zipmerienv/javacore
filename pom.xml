@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>center.kit</groupId>
+<artifactId>javacore</artifactId>
+<version>1.0-SNAPSHOT</version>
+<!--  в ij по дефолту выставляются 1.5, чтобы поменять, нажать на ключ, найти java compiler  поменять на 1.8-->
+<properties>
+    <jUnit-ver>4.12</jUnit-ver>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+<!-- settings/configs references (переменные?) -->
+<profiles>
+    <profile>
+        <id>chrome</id>
+        <properties>
+            <selenium.browser>chrome</selenium.browser>
+        </properties>
+    </profile>
+    <profile>
+        <id>ff</id>
+        <properties>
+            <selenium.browser>mozilla</selenium.browser>
+        </properties>
+    </profile>
+</profiles>
+
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+
+</project>
