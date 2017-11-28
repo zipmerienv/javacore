@@ -6,8 +6,10 @@ public class PrimitiveConvertorRunner {
     public static void main(String[] args) {
         PrimitiveConvertor primitiveConvertor =
                 new PrimitiveConvertor();
-        primitiveConvertor.floatToChar('j');
-        primitiveConvertor.intToChar('d');
-        primitiveConvertor.charToInt('d');
+
+        //primitiveConvertor.floatToChar(0.999f);
+        //primitiveConvertor.intToChar(11868731);
+        //primitiveConvertor.chartofloat('h);
+        primitiveConvertor.charToInt('c');
     }
 }
