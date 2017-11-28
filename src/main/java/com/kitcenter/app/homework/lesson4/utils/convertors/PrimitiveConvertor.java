@@ -3,18 +3,18 @@ package com.kitcenter.app.homework.lesson4.utils.convertors;
 public class PrimitiveConvertor {
 
 
-    public void floatToChar(float f1) {
-        float f1 = (char) char1;
-        System.out.println("Input float value is: " + f1 + " Output float value is: " + f1);
+    public void floatToChar(float char1) {
+        float floatConv2Char = (char) char1;
+        System.out.println("Input float value is: " + floatConv2Char + " Output float value is: " + char1);
     }
 
-    public void intToChar(int in1) {
-        int int1 = (char) char1;
-        System.out.println("Input int value is: " + int1 + " Output int value is: " + int1);
+    public void intToChar(int char1) {
+        int intConv2Char = (char) char1;
+        System.out.println("Input int value is: " + intConv2Char + " Output int value is: " + char1);
     }
 
-    public void charToInt(char char1) {
-        char char1 = (int) int1;
-        System.out.println("Input char value is: " + char1 + " Output char value is: " + char1);
+    public void charToInt(char int1) {
+        char charConv2int = int1;
+        System.out.println("Input char value is: " + charConv2int + " Output char value is: " + int1);
     }
 }
