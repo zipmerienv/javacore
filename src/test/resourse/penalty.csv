@@ -1,0 +1,5 @@
+penaltyKick, expResult
+'L', "Messi shoots to the left and scores!
+'R', "Messi shoots to the right and misses the goal!"
+'C', "Messi shoots down the center, but the keeper blocks it!"
+' ', " "
