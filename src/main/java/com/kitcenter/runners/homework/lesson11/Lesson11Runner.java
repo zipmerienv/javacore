@@ -1,6 +1,7 @@
 package com.kitcenter.runners.homework.lesson11;
 
 import com.kitcenter.app.homework.lesson11.Human;
+import com.kitcenter.app.homework.lesson11.WhiteCollar;
 
 public class Lesson11Runner {
     public static void main(String[] args) {
@@ -13,5 +14,9 @@ public class Lesson11Runner {
         steevy.setHumanAge(90);
         System.out.println(steevy.getHumanName() + " is now " + steevy.getHumanAge() + " years old");
 
+
+        WhiteCollar mike = new WhiteCollar(32, "Mike", "kjh");
+        mike.setCompany("hec-tech1 67");
+        mike.getCompany();
     }
 }
